@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck11"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@android:color/black"
+        android:id="@+id/relativeLayout7"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="295dp"
+            android:layout_height="55dp"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:hint="Enter Number"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:id="@+id/editText6"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:background="@drawable/btn1"
+        android:id="@+id/button12"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@android:color/black"
+        android:id="@+id/relativeLayout8"
+        android:layout_below="@+id/button12"
+
+        android:layout_alignLeft="@+id/relativeLayout7"
+        android:layout_alignStart="@+id/relativeLayout7"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:layout_width="295dp"
+            android:layout_height="145dp"
+            android:inputType="textLongMessage"
+            android:paddingLeft="10dp"
+            android:hint="Enter Message"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@drawable/btn1"
+        android:id="@+id/button13"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/relativeLayout8"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
